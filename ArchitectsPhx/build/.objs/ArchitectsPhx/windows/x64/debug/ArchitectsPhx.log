@@ -1,8 +1,2 @@
-﻿  SDLppRenderer.cpp
-  SDLpp.cpp
-  SDLppWindow.cpp
-  main.cpp
-  SDLppTexture.cpp
-  SDLppSurface.cpp
-  Sprite.cpp
-  ArchitectsPhx.vcxproj -> D:\Visual Studio Community\Projects\CoursMoteur\ArchitectsPhxEngine\ArchitectsPhx\bin\windows_x64_debug\ArchitectsPhx.exe
+﻿main.obj : error LNK2019: symbole externe non résolu "public: __cdecl Vector2::Vector2(float,float)" (??0Vector2@@QEAA@MM@Z) référencé dans la fonction main
+..\..\bin\windows_x64_debug\ArchitectsPhx.exe : fatal error LNK1120: 1 externes non résolus

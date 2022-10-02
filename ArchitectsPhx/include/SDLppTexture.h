@@ -1,4 +1,5 @@
 #pragma once
+
 #include <SDL.h>
 #include <string>
 
@@ -13,6 +14,7 @@ class SDLppTexture
 		~SDLppTexture();
 
 		SDL_Texture* GetHandle() const;
+		SDL_Rect GetRect() const;
 
 		SDLppTexture& operator=(const SDLppTexture&) = delete; // opérateur d'assignation par copie
 		SDLppTexture& operator=(SDLppTexture&&) noexcept; // opérateur d'assignation par mouvement

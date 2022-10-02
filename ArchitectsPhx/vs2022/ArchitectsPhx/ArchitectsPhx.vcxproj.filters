@@ -30,6 +30,9 @@
     <ClCompile Include="..\..\src\Sprite.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\Vector2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\SDLpp.h">
@@ -48,6 +51,9 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\Sprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Vector2.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
