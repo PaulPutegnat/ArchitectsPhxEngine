@@ -232,7 +232,6 @@
     <ClCompile Include="..\..\src\SDLppSurface.cpp">
     </ClCompile>
     <ClCompile Include="..\..\src\Sprite.cpp" />
-    <ClCompile Include="..\..\src\Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\SDLpp.h" />
@@ -241,7 +240,6 @@
     <ClInclude Include="..\..\include\SDLppTexture.h" />
     <ClInclude Include="..\..\include\SDLppWindow.h" />
     <ClInclude Include="..\..\include\Sprite.h" />
-    <ClInclude Include="..\..\include\Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
