@@ -94,24 +94,24 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Debugger">
     <LocalDebuggerWorkingDirectory>..\..\bin</LocalDebuggerWorkingDirectory>
-    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;..\..\bin\windows_x86_debug;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Debugger">
     <LocalDebuggerWorkingDirectory>..\..\bin</LocalDebuggerWorkingDirectory>
-    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;..\..\bin\windows_x64_debug;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Debugger">
     <LocalDebuggerWorkingDirectory>..\..\bin</LocalDebuggerWorkingDirectory>
-    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;..\..\bin\windows_x86_release;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Debugger">
     <LocalDebuggerWorkingDirectory>..\..\bin</LocalDebuggerWorkingDirectory>
-    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;..\..\bin\windows_x64_release;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\bin;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;..\..\bin\windows_x86_debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;ArchitectsPhxLibrary.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>-dynamicbase -nxcompat %(AdditionalOptions)</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -127,18 +127,18 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MinimalRebuild>false</MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/EHsc -FS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>SDL_MAIN_HANDLED;__config_debug__;__config_Win32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;..\..\bin\windows_x64_debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;ArchitectsPhxLibrary.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>-dynamicbase -nxcompat %(AdditionalOptions)</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -154,18 +154,18 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MinimalRebuild>false</MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/EHsc -FS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>SDL_MAIN_HANDLED;__config_debug__;__config_x64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\efea22007feb422bb8c5719eae790ef8\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\f17115fa7eff44389c1adfe8a3533403\lib;..\..\bin\windows_x86_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;ArchitectsPhxLibrary.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>-dynamicbase -nxcompat /opt:ref /opt:icf %(AdditionalOptions)</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -182,18 +182,18 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MinimalRebuild>false</MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/EHsc %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>SDL_MAIN_HANDLED;NDEBUG;__config_release__;__config_Win32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl_image\2.6.2\503cddcb947d463f99cb261e86c42a27\lib;C:\Users\paulp\AppData\Local\.xmake\packages\l\libsdl\2.24.0\72cef56b1aef4c0dbc0fb4007bb4eb11\lib;..\..\bin\windows_x64_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2_image.lib;SDL2main.lib;SDL2.lib;ArchitectsPhxLibrary.lib;gdi32.lib;user32.lib;winmm.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>-dynamicbase -nxcompat /opt:ref /opt:icf %(AdditionalOptions)</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -210,36 +210,19 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <MinimalRebuild>false</MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/EHsc %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>SDL_MAIN_HANDLED;NDEBUG;__config_release__;__config_x64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ArchitectsPhxLibrary\lib_include;..\..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\SDLppRenderer.cpp">
-    </ClCompile>
-    <ClCompile Include="..\..\src\SDLpp.cpp">
-    </ClCompile>
-    <ClCompile Include="..\..\src\SDLppWindow.cpp">
-    </ClCompile>
     <ClCompile Include="..\..\src\main.cpp">
     </ClCompile>
-    <ClCompile Include="..\..\src\SDLppTexture.cpp">
-    </ClCompile>
-    <ClCompile Include="..\..\src\SDLppSurface.cpp">
-    </ClCompile>
-    <ClCompile Include="..\..\src\Sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\include\SDLpp.h" />
-    <ClInclude Include="..\..\include\SDLppRenderer.h" />
-    <ClInclude Include="..\..\include\SDLppSurface.h" />
-    <ClInclude Include="..\..\include\SDLppTexture.h" />
-    <ClInclude Include="..\..\include\SDLppWindow.h" />
-    <ClInclude Include="..\..\include\Sprite.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

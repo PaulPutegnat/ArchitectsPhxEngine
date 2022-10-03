@@ -2,10 +2,22 @@ add_rules("mode.debug", "mode.release")
 
 add_requires("libsdl", "libsdl_image")
 
+target("ArchitectsPhxLibrary")
+    set_kind("shared")
+    add_defines("LIB_COMPILING")
+    add_includedirs("ArchitectsPhxLibrary/lib_include", "include")
+    add_headerfiles("ArchitectsPhxLibrary/lib_include/*.h")
+    add_files("ArchitectsPhxLibrary/lib_src/*.cpp")
+    add_packages("libsdl", "libsdl_image")
+
+    set_rundir("bin")
+    set_targetdir("bin/$(plat)_$(arch)_$(mode)")
+
 target("ArchitectsPhx")
+    add_deps("ArchitectsPhxLibrary")
     set_kind("binary")
     add_headerfiles("include/*h", "include/*.hpp")
-    add_includedirs("include")
+    add_includedirs("ArchitectsPhxLibrary/lib_include", "include")
     add_files("src/*.cpp")
     add_packages("libsdl", "libsdl_image")
 

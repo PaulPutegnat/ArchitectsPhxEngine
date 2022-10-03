@@ -1,6 +1,11 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2022
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArchitectsPhx", "ArchitectsPhx\ArchitectsPhx.vcxproj", "{9F565A6E-0463-4B14-81F8-53704574CBCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9896DE5B-2481-4AB0-9467-09F5E428963C} = {9896DE5B-2481-4AB0-9467-09F5E428963C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArchitectsPhxLibrary", "ArchitectsPhxLibrary\ArchitectsPhxLibrary.vcxproj", "{9896DE5B-2481-4AB0-9467-09F5E428963C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,6 +15,14 @@ Global
 		release|x64 = release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.debug|x86.ActiveCfg = debug|Win32
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.debug|x86.Build.0 = debug|Win32
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.debug|x64.ActiveCfg = debug|x64
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.debug|x64.Build.0 = debug|x64
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.release|x86.ActiveCfg = release|Win32
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.release|x86.Build.0 = release|Win32
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.release|x64.ActiveCfg = release|x64
+		{9896DE5B-2481-4AB0-9467-09F5E428963C}.release|x64.Build.0 = release|x64
 		{9F565A6E-0463-4B14-81F8-53704574CBCB}.debug|x86.ActiveCfg = debug|Win32
 		{9F565A6E-0463-4B14-81F8-53704574CBCB}.debug|x86.Build.0 = debug|Win32
 		{9F565A6E-0463-4B14-81F8-53704574CBCB}.debug|x64.ActiveCfg = debug|x64
