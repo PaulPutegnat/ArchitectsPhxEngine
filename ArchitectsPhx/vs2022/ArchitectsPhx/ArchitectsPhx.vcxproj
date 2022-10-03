@@ -221,8 +221,11 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
     </ClCompile>
+    <ClCompile Include="..\..\src\Transform.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\EngineMath.h" />
+    <ClInclude Include="..\..\include\Transform.h" />
     <ClInclude Include="..\..\include\Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,6 +4,8 @@
 #include "SDLppWindow.h"
 #include "SDLppRenderer.h"
 #include "SDLppTexture.h"
+#include "Transform.h"
+
 //#include "Sprite.h"
 
 /*
@@ -49,6 +51,25 @@ int main(int argc, char** argv)
         renderer.RenderCopy(theirDebutAlbum, rect);
         renderer.Present();
     }
+
+    Tranform transform;
+    Vector2 result;
+    transform.SetPosition(Vector2(42.2f, -6.f));
+    transform.SetRotation(-270.f);
+    transform.SetScale(Vector2(0.5f, 2.f));
+
+    result = transform.TransformPoint(Vector2(0.f, 0.f));
+    std::cout << result.x << "   " << result.y << std::endl;
+    result = transform.TransformPoint(Vector2(10.f, 0.f));
+    std::cout << result.x << "   " << result.y << std::endl;
+    result = transform.TransformPoint(Vector2(0.f, 10.f));
+    std::cout << result.x << "   " << result.y << std::endl;
+    result = transform.TransformPoint(Vector2(21.f, -3.f));
+    std::cout << result.x << "   " << result.y << std::endl;
+
+    transform.SetScale(Vector2(0.5f, -2.f));
+    result = transform.TransformPoint(Vector2(-42.f, -42.f));
+    std::cout << result.x << "   " << result.y << std::endl;
 
     return 0;
 }
